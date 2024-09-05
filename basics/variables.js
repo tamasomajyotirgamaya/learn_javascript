@@ -14,6 +14,6 @@ let accountState;
 // console.log(accountId);
 
 /*
-avoid using var
+avoid using var: because it does not have scope functionality: interview question
 */
 console.table([accountEmail, accountCity, accountPassword, accountId, accountState])
